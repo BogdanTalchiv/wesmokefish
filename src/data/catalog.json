@@ -1,0 +1,1678 @@
+{
+  "syncedAt": "2026-09-11T15:42:04.707Z",
+  "source": "https://wesmokefish.md",
+  "currency": "MDL",
+  "collections": [
+    {
+      "slug": "bere",
+      "shopifyHandle": "bere-1",
+      "title": "Bere",
+      "count": 13
+    },
+    {
+      "slug": "peste-si-fructe-de-mare-afumate",
+      "shopifyHandle": "pește-și-fructe-de-mare-afumate",
+      "title": "Pește și fructe de mare afumate",
+      "count": 22
+    },
+    {
+      "slug": "slab-sarat-si-marinat",
+      "shopifyHandle": "pește-și-fructe-de-mare-slab-sarat-și-marinate",
+      "title": "Pește și fructe de mare slab-sărat și marinate",
+      "count": 4
+    }
+  ],
+  "products": [
+    {
+      "id": "8354203861049",
+      "gid": "gid://shopify/Product/8354203861049",
+      "slug": "bere-litra-game-changer",
+      "shopifyHandle": "bere-litra-game-changer",
+      "title": "Bere Litra Game Changer",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/LITRA.jpg?v=1784791942",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46238980800569",
+          "gid": "gid://shopify/ProductVariant/46238980800569",
+          "title": null,
+          "price": 75,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 75,
+      "priceMax": 75,
+      "available": true,
+      "createdAt": "2026-07-23T10:34:19+03:00"
+    },
+    {
+      "id": "8354191441977",
+      "gid": "gid://shopify/Product/8354191441977",
+      "slug": "bere-litra-helles",
+      "shopifyHandle": "bere-litra-helles",
+      "title": "Bere Litra Helles",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/LITRA.jpg?v=1784791942",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46238964777017",
+          "gid": "gid://shopify/ProductVariant/46238964777017",
+          "title": null,
+          "price": 65,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 65,
+      "priceMax": 65,
+      "available": true,
+      "createdAt": "2026-07-23T10:33:55+03:00"
+    },
+    {
+      "id": "8354190688313",
+      "gid": "gid://shopify/Product/8354190688313",
+      "slug": "bere-litra-pale-ale",
+      "shopifyHandle": "bere-litra-pale-ale",
+      "title": "Bere Litra Pale Ale",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/LITRA.jpg?v=1784791942",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46238962974777",
+          "gid": "gid://shopify/ProductVariant/46238962974777",
+          "title": null,
+          "price": 70,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 70,
+      "priceMax": 70,
+      "available": true,
+      "createdAt": "2026-07-23T10:33:31+03:00"
+    },
+    {
+      "id": "8354189869113",
+      "gid": "gid://shopify/Product/8354189869113",
+      "slug": "bere-litra-viena-lager",
+      "shopifyHandle": "bere-litra-litra-viena-lager",
+      "title": "Bere Litra Viena Lager",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/LITRA.jpg?v=1784791942",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46238961139769",
+          "gid": "gid://shopify/ProductVariant/46238961139769",
+          "title": null,
+          "price": 70,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 70,
+      "priceMax": 70,
+      "available": true,
+      "createdAt": "2026-07-23T10:32:59+03:00"
+    },
+    {
+      "id": "8354188591161",
+      "gid": "gid://shopify/Product/8354188591161",
+      "slug": "bere-litra-weisbier",
+      "shopifyHandle": "bere-litra-weisbier",
+      "title": "Bere Litra Weisbier",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/LITRA.jpg?v=1784791942",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46238959829049",
+          "gid": "gid://shopify/ProductVariant/46238959829049",
+          "title": null,
+          "price": 65,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 65,
+      "priceMax": 65,
+      "available": true,
+      "createdAt": "2026-07-23T10:31:57+03:00"
+    },
+    {
+      "id": "8343092297785",
+      "gid": "gid://shopify/Product/8343092297785",
+      "slug": "bere-gotter-nefiltarata",
+      "shopifyHandle": "bere-holz-weissbier-copy",
+      "title": "Bere Gotter Nefiltarata",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/gotternef.jpg?v=1784131657",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46205981458489",
+          "gid": "gid://shopify/ProductVariant/46205981458489",
+          "title": null,
+          "price": 58,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 58,
+      "priceMax": 58,
+      "available": true,
+      "createdAt": "2026-07-15T19:07:17+03:00"
+    },
+    {
+      "id": "8343094034489",
+      "gid": "gid://shopify/Product/8343094034489",
+      "slug": "bere-gotter-filtrata",
+      "shopifyHandle": "bere-gotter-nefiltarata-copy",
+      "title": "Bere Gotter Filtrata",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/gotterfiltr.jpg?v=1784131707",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46205984997433",
+          "gid": "gid://shopify/ProductVariant/46205984997433",
+          "title": null,
+          "price": 58,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 58,
+      "priceMax": 58,
+      "available": true,
+      "createdAt": "2026-07-15T19:07:53+03:00"
+    },
+    {
+      "id": "8343090823225",
+      "gid": "gid://shopify/Product/8343090823225",
+      "slug": "bere-holz-weissbier",
+      "shopifyHandle": "bere-holz-munich-helles-copy",
+      "title": "Bere Holz Weissbier",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/weiss.jpg?v=1784131625",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46205979852857",
+          "gid": "gid://shopify/ProductVariant/46205979852857",
+          "title": null,
+          "price": 62,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 62,
+      "priceMax": 62,
+      "available": true,
+      "createdAt": "2026-07-15T19:06:27+03:00"
+    },
+    {
+      "id": "8343090462777",
+      "gid": "gid://shopify/Product/8343090462777",
+      "slug": "bere-holz-munich-helles",
+      "shopifyHandle": "bere-жигулёвске-copy",
+      "title": "Bere Holz Munich helles",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/helles.jpg?v=1784131561",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46205979000889",
+          "gid": "gid://shopify/ProductVariant/46205979000889",
+          "title": null,
+          "price": 62,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 62,
+      "priceMax": 62,
+      "available": true,
+      "createdAt": "2026-07-15T19:05:42+03:00"
+    },
+    {
+      "id": "8343090200633",
+      "gid": "gid://shopify/Product/8343090200633",
+      "slug": "bere-zhigulevske",
+      "shopifyHandle": "bere-bermaster-ipa-copy",
+      "title": "Bere Жигулёвске",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/jiguli.jpg?v=1784131521",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46205978640441",
+          "gid": "gid://shopify/ProductVariant/46205978640441",
+          "title": null,
+          "price": 44,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 44,
+      "priceMax": 44,
+      "available": true,
+      "createdAt": "2026-07-15T19:05:07+03:00"
+    },
+    {
+      "id": "8343089774649",
+      "gid": "gid://shopify/Product/8343089774649",
+      "slug": "bere-bermaster-ipa",
+      "shopifyHandle": "bere-grand-gold-copy",
+      "title": "Bere Bermaster IPA",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/ipa.jpg?v=1784131479",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46205978017849",
+          "gid": "gid://shopify/ProductVariant/46205978017849",
+          "title": null,
+          "price": 58,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 58,
+      "priceMax": 58,
+      "available": true,
+      "createdAt": "2026-07-15T19:04:13+03:00"
+    },
+    {
+      "id": "8343089348665",
+      "gid": "gid://shopify/Product/8343089348665",
+      "slug": "bere-grand-gold",
+      "shopifyHandle": "bere-heineken-copy",
+      "title": "Bere Grand Gold",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/2.grandgold.jpg?v=1784131423",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46205977264185",
+          "gid": "gid://shopify/ProductVariant/46205977264185",
+          "title": null,
+          "price": 46,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 46,
+      "priceMax": 46,
+      "available": true,
+      "createdAt": "2026-07-15T19:03:16+03:00"
+    },
+    {
+      "id": "8343087480889",
+      "gid": "gid://shopify/Product/8343087480889",
+      "slug": "bere-heineken",
+      "shopifyHandle": "bere-heineken",
+      "title": "Bere Heineken",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [
+        "heineken"
+      ],
+      "collections": [
+        "bere"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/1.heineken.jpg?v=1784131115",
+          "width": 1186,
+          "height": 1186
+        }
+      ],
+      "optionName": null,
+      "variants": [
+        {
+          "id": "46205972938809",
+          "gid": "gid://shopify/ProductVariant/46205972938809",
+          "title": null,
+          "price": 81,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": null,
+          "pricePerKg": null,
+          "sku": null
+        }
+      ],
+      "priceMin": 81,
+      "priceMax": 81,
+      "available": true,
+      "createdAt": "2026-07-15T19:00:28+03:00"
+    },
+    {
+      "id": "8330146414649",
+      "gid": "gid://shopify/Product/8330146414649",
+      "slug": "vomer-afumat-la-rece",
+      "shopifyHandle": "vomer-afumat-la-rece",
+      "title": "Vomer afumat la rece",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0431.jpg?v=1783342599",
+          "width": 2499,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46167096557625",
+          "gid": "gid://shopify/ProductVariant/46167096557625",
+          "title": "120 ± gm",
+          "price": 34.8,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 120,
+          "pricePerKg": 290,
+          "sku": null
+        }
+      ],
+      "priceMin": 34.8,
+      "priceMax": 34.8,
+      "available": true,
+      "createdAt": "2026-07-06T15:56:22+03:00"
+    },
+    {
+      "id": "8330145497145",
+      "gid": "gid://shopify/Product/8330145497145",
+      "slug": "midii-afumate",
+      "shopifyHandle": "midii-afumate",
+      "title": "Midii afumate",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0468.jpg?v=1783342260",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bețișorul",
+      "variants": [
+        {
+          "id": "46167094329401",
+          "gid": "gid://shopify/ProductVariant/46167094329401",
+          "title": "100 ± gm",
+          "price": 79,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 100,
+          "pricePerKg": 790,
+          "sku": null
+        }
+      ],
+      "priceMin": 79,
+      "priceMax": 79,
+      "available": true,
+      "createdAt": "2026-07-06T15:50:32+03:00"
+    },
+    {
+      "id": "8330145824825",
+      "gid": "gid://shopify/Product/8330145824825",
+      "slug": "crap-afumat-la-rece",
+      "shopifyHandle": "crap-afumat-la-rece",
+      "title": "Crap afumat la rece",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/8.jpg?v=1783342396",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46167094951993",
+          "gid": "gid://shopify/ProductVariant/46167094951993",
+          "title": "250 ± gm",
+          "price": 180,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 250,
+          "pricePerKg": 720,
+          "sku": null
+        }
+      ],
+      "priceMin": 180,
+      "priceMax": 180,
+      "available": true,
+      "createdAt": "2026-07-06T15:52:55+03:00"
+    },
+    {
+      "id": "8330097918009",
+      "gid": "gid://shopify/Product/8330097918009",
+      "slug": "ton-afumat-in-sos-de-soia",
+      "shopifyHandle": "ton-afumat-in-sos-de-soia-si-citrice",
+      "title": "Ton afumat in sos de soia",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/4.jpg?v=1783334174",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166700982329",
+          "gid": "gid://shopify/ProductVariant/46166700982329",
+          "title": "200 gm",
+          "price": 156,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 200,
+          "pricePerKg": 780,
+          "sku": null
+        },
+        {
+          "id": "46166701015097",
+          "gid": "gid://shopify/ProductVariant/46166701015097",
+          "title": "400 gm",
+          "price": 312,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 400,
+          "pricePerKg": 780,
+          "sku": null
+        },
+        {
+          "id": "46166701047865",
+          "gid": "gid://shopify/ProductVariant/46166701047865",
+          "title": "600 gm",
+          "price": 468,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 600,
+          "pricePerKg": 780,
+          "sku": null
+        }
+      ],
+      "priceMin": 156,
+      "priceMax": 468,
+      "available": true,
+      "createdAt": "2026-07-06T13:35:52+03:00"
+    },
+    {
+      "id": "8330091757625",
+      "gid": "gid://shopify/Product/8330091757625",
+      "slug": "steak-de-somon-cu-sos-teriyaki",
+      "shopifyHandle": "steak-de-somon-cu-sos-teriyaki",
+      "title": "Steak de somon cu sos teriyaki",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0459.jpg?v=1783333687",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166683877433",
+          "gid": "gid://shopify/ProductVariant/46166683877433",
+          "title": "400 gm",
+          "price": 180,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 400,
+          "pricePerKg": 450,
+          "sku": null
+        }
+      ],
+      "priceMin": 180,
+      "priceMax": 180,
+      "available": true,
+      "createdAt": "2026-07-06T13:27:49+03:00"
+    },
+    {
+      "id": "8330105913401",
+      "gid": "gid://shopify/Product/8330105913401",
+      "slug": "somon-slab-sarat-cu-marar",
+      "shopifyHandle": "midii-marinate-copy",
+      "title": "Somon slab sărat cu mărar",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "slab-sarat-si-marinat"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/9.jpg?v=1783335492",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166737649721",
+          "gid": "gid://shopify/ProductVariant/46166737649721",
+          "title": "300 gm",
+          "price": 225,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 300,
+          "pricePerKg": 750,
+          "sku": null
+        }
+      ],
+      "priceMin": 225,
+      "priceMax": 225,
+      "available": true,
+      "createdAt": "2026-07-06T13:57:30+03:00"
+    },
+    {
+      "id": "8330101162041",
+      "gid": "gid://shopify/Product/8330101162041",
+      "slug": "somon-proaspat-afumat",
+      "shopifyHandle": "somon-proaspat-afumat",
+      "title": "Somon proaspăt afumat",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/6.jpg?v=1783334671",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166714679353",
+          "gid": "gid://shopify/ProductVariant/46166714679353",
+          "title": "300 gm",
+          "price": 216,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 300,
+          "pricePerKg": 720,
+          "sku": null
+        }
+      ],
+      "priceMin": 216,
+      "priceMax": 216,
+      "available": true,
+      "createdAt": "2026-07-06T13:44:16+03:00"
+    },
+    {
+      "id": "8330101719097",
+      "gid": "gid://shopify/Product/8330101719097",
+      "slug": "sea-bass-usor-afumat",
+      "shopifyHandle": "sea-bass-ușor-afumat",
+      "title": "Sea bass ușor afumat",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0420.jpg?v=1783334804",
+          "width": 2500,
+          "height": 2499
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166717005881",
+          "gid": "gid://shopify/ProductVariant/46166717005881",
+          "title": "350 gm",
+          "price": 280,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 350,
+          "pricePerKg": 800,
+          "sku": null
+        }
+      ],
+      "priceMin": 280,
+      "priceMax": 280,
+      "available": true,
+      "createdAt": "2026-07-06T13:45:51+03:00"
+    },
+    {
+      "id": "8330091233337",
+      "gid": "gid://shopify/Product/8330091233337",
+      "slug": "scrumbie-usor-afumata",
+      "shopifyHandle": "steak-de-pastrav-copy",
+      "title": "Scrumbie ușor afumată",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0437_1_59b3167a-7b23-465d-a178-7ef37b8ce6bf.jpg?v=1783333609",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166682370105",
+          "gid": "gid://shopify/ProductVariant/46166682370105",
+          "title": "400 gm",
+          "price": 192,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 400,
+          "pricePerKg": 480,
+          "sku": null
+        }
+      ],
+      "priceMin": 192,
+      "priceMax": 192,
+      "available": true,
+      "createdAt": "2026-07-06T13:26:26+03:00"
+    },
+    {
+      "id": "8330107486265",
+      "gid": "gid://shopify/Product/8330107486265",
+      "slug": "scrumbie-slab-sarata-cu-ceapa",
+      "shopifyHandle": "scrumbie-slab-sarata-copy",
+      "title": "Scrumbie slab sărată cu ceapa și sos din verdețuri",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "slab-sarat-si-marinat"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0516.jpg?v=1783335742",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166743220281",
+          "gid": "gid://shopify/ProductVariant/46166743220281",
+          "title": "430 gm",
+          "price": 154.8,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 430,
+          "pricePerKg": 360,
+          "sku": null
+        }
+      ],
+      "priceMin": 154.8,
+      "priceMax": 154.8,
+      "available": true,
+      "createdAt": "2026-07-06T14:01:45+03:00"
+    },
+    {
+      "id": "8330106667065",
+      "gid": "gid://shopify/Product/8330106667065",
+      "slug": "scrumbie-slab-sarata",
+      "shopifyHandle": "somon-slab-sarat-cu-marar-copy",
+      "title": "Scrumbie slab sărată",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "slab-sarat-si-marinat"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0440_1.jpg?v=1783335603",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166740893753",
+          "gid": "gid://shopify/ProductVariant/46166740893753",
+          "title": "450 gm",
+          "price": 202.5,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 450,
+          "pricePerKg": 450,
+          "sku": null
+        }
+      ],
+      "priceMin": 202.5,
+      "priceMax": 202.5,
+      "available": true,
+      "createdAt": "2026-07-06T13:59:15+03:00"
+    },
+    {
+      "id": "8330103259193",
+      "gid": "gid://shopify/Product/8330103259193",
+      "slug": "novac-tolstolob-in-sos-de-miere",
+      "shopifyHandle": "novac-tolstolob-in-sos-de-miere",
+      "title": "Novac (tolstolob) în sos de miere",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/7.jpg?v=1783335028",
+          "width": 2500,
+          "height": 2499
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166723788857",
+          "gid": "gid://shopify/ProductVariant/46166723788857",
+          "title": "200 gm",
+          "price": 96,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 200,
+          "pricePerKg": 480,
+          "sku": null
+        }
+      ],
+      "priceMin": 96,
+      "priceMax": 96,
+      "available": true,
+      "createdAt": "2026-07-06T13:49:54+03:00"
+    },
+    {
+      "id": "8330102702137",
+      "gid": "gid://shopify/Product/8330102702137",
+      "slug": "novac-afumat-cu-usturoi-si-marar",
+      "shopifyHandle": "novac-tolstolob-afumat-cu-usturoi-și-marar",
+      "title": "Novac (tolstolob) afumat cu usturoi și mărar",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0451.jpg?v=1783334925",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166721527865",
+          "gid": "gid://shopify/ProductVariant/46166721527865",
+          "title": "200 gm",
+          "price": 96,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 200,
+          "pricePerKg": 480,
+          "sku": null
+        }
+      ],
+      "priceMin": 96,
+      "priceMax": 96,
+      "available": true,
+      "createdAt": "2026-07-06T13:48:24+03:00"
+    },
+    {
+      "id": "8330093232185",
+      "gid": "gid://shopify/Product/8330093232185",
+      "slug": "pastrav-intreg-afumat",
+      "shopifyHandle": "pastrav-intreg-afumat",
+      "title": "Păstrăv întreg afumat",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0416.jpg?v=1783333944",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166689284153",
+          "gid": "gid://shopify/ProductVariant/46166689284153",
+          "title": "400± gm",
+          "price": 270,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 400,
+          "pricePerKg": 675,
+          "sku": null
+        }
+      ],
+      "priceMin": 270,
+      "priceMax": 270,
+      "available": true,
+      "createdAt": "2026-07-06T13:31:49+03:00"
+    },
+    {
+      "id": "8330104995897",
+      "gid": "gid://shopify/Product/8330104995897",
+      "slug": "midii-marinate",
+      "shopifyHandle": "midii-marinate",
+      "title": "Midii marinate",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "slab-sarat-si-marinat"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0470.jpg?v=1783335438",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166734635065",
+          "gid": "gid://shopify/ProductVariant/46166734635065",
+          "title": "250 gm",
+          "price": 77.5,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 250,
+          "pricePerKg": 310,
+          "sku": null
+        }
+      ],
+      "priceMin": 77.5,
+      "priceMax": 77.5,
+      "available": true,
+      "createdAt": "2026-07-06T13:55:00+03:00"
+    },
+    {
+      "id": "8330103750713",
+      "gid": "gid://shopify/Product/8330103750713",
+      "slug": "frigarui-afumate-ton-somon-peste-spada",
+      "shopifyHandle": "frigarui-afumat-din-ton-somon-și-pește-spada-cu-sos-sweet-chili-și-shriracea",
+      "title": "Frigărui afumat din ton, somon și pește spadă cu sos sweet chili și shriracea",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0464.jpg?v=1783335110",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166727295033",
+          "gid": "gid://shopify/ProductVariant/46166727295033",
+          "title": "200 gm",
+          "price": 175,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 200,
+          "pricePerKg": 875,
+          "sku": null
+        }
+      ],
+      "priceMin": 175,
+      "priceMax": 175,
+      "available": true,
+      "createdAt": "2026-07-06T13:51:18+03:00"
+    },
+    {
+      "id": "8330099720249",
+      "gid": "gid://shopify/Product/8330099720249",
+      "slug": "marlin-afumat",
+      "shopifyHandle": "marlin-afumat",
+      "title": "Marlin afumat",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/5.jpg?v=1783334417",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166709567545",
+          "gid": "gid://shopify/ProductVariant/46166709567545",
+          "title": "200 gm",
+          "price": 180,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 200,
+          "pricePerKg": 900,
+          "sku": null
+        },
+        {
+          "id": "46166709600313",
+          "gid": "gid://shopify/ProductVariant/46166709600313",
+          "title": "400 gm",
+          "price": 360,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 400,
+          "pricePerKg": 900,
+          "sku": null
+        },
+        {
+          "id": "46166709633081",
+          "gid": "gid://shopify/ProductVariant/46166709633081",
+          "title": "600 gm",
+          "price": 540,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 600,
+          "pricePerKg": 900,
+          "sku": null
+        }
+      ],
+      "priceMin": 180,
+      "priceMax": 540,
+      "available": true,
+      "createdAt": "2026-07-06T13:39:53+03:00"
+    },
+    {
+      "id": "8330100473913",
+      "gid": "gid://shopify/Product/8330100473913",
+      "slug": "escolar-afumat",
+      "shopifyHandle": "escolar-afumat",
+      "title": "Escolar afumat",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/3.jpg?v=1783334583",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166712418361",
+          "gid": "gid://shopify/ProductVariant/46166712418361",
+          "title": "200 gm",
+          "price": 126,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 200,
+          "pricePerKg": 630,
+          "sku": null
+        },
+        {
+          "id": "46166712451129",
+          "gid": "gid://shopify/ProductVariant/46166712451129",
+          "title": "400 gm",
+          "price": 252,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 400,
+          "pricePerKg": 630,
+          "sku": null
+        },
+        {
+          "id": "46166712483897",
+          "gid": "gid://shopify/ProductVariant/46166712483897",
+          "title": "600 gm",
+          "price": 378,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 600,
+          "pricePerKg": 630,
+          "sku": null
+        }
+      ],
+      "priceMin": 126,
+      "priceMax": 378,
+      "available": true,
+      "createdAt": "2026-07-06T13:42:15+03:00"
+    },
+    {
+      "id": "8330092576825",
+      "gid": "gid://shopify/Product/8330092576825",
+      "slug": "dorado-afumata",
+      "shopifyHandle": "dorado-afumata",
+      "title": "Dorado afumată",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0443.jpg?v=1783333813",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166687252537",
+          "gid": "gid://shopify/ProductVariant/46166687252537",
+          "title": "400± gm",
+          "price": 244,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 400,
+          "pricePerKg": 610,
+          "sku": null
+        }
+      ],
+      "priceMin": 244,
+      "priceMax": 244,
+      "available": true,
+      "createdAt": "2026-07-06T13:29:46+03:00"
+    },
+    {
+      "id": "8330089431097",
+      "gid": "gid://shopify/Product/8330089431097",
+      "slug": "steak-de-pastrav",
+      "shopifyHandle": "scrumbie-ușor-afumata",
+      "title": "Steak de păstrăv",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0448.jpg?v=1783333485",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166672932921",
+          "gid": "gid://shopify/ProductVariant/46166672932921",
+          "title": "200 gm",
+          "price": 140,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 200,
+          "pricePerKg": 700,
+          "sku": null
+        }
+      ],
+      "priceMin": 140,
+      "priceMax": 140,
+      "available": true,
+      "createdAt": "2026-07-06T13:21:18+03:00"
+    },
+    {
+      "id": "8330088841273",
+      "gid": "gid://shopify/Product/8330088841273",
+      "slug": "creveti-afumati-cu-parmezan",
+      "shopifyHandle": "creveți-afumați-cu-parmezan",
+      "title": "Creveți afumați cu parmezan",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0509.jpg?v=1785161138",
+          "width": 2500,
+          "height": 2499
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166671130681",
+          "gid": "gid://shopify/ProductVariant/46166671130681",
+          "title": "250 gm",
+          "price": 172.5,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 250,
+          "pricePerKg": 690,
+          "sku": null
+        },
+        {
+          "id": "46166671163449",
+          "gid": "gid://shopify/ProductVariant/46166671163449",
+          "title": "400 gm",
+          "price": 276,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 400,
+          "pricePerKg": 690,
+          "sku": null
+        },
+        {
+          "id": "46166671196217",
+          "gid": "gid://shopify/ProductVariant/46166671196217",
+          "title": "600 gm",
+          "price": 414,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 600,
+          "pricePerKg": 690,
+          "sku": null
+        }
+      ],
+      "priceMin": 172.5,
+      "priceMax": 414,
+      "available": true,
+      "createdAt": "2026-07-06T13:19:27+03:00"
+    },
+    {
+      "id": "8330073210937",
+      "gid": "gid://shopify/Product/8330073210937",
+      "slug": "creveti-afumati",
+      "shopifyHandle": "yucola-somon-copy-1",
+      "title": "Creveți afumați",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0490.jpg?v=1783332521",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166643048505",
+          "gid": "gid://shopify/ProductVariant/46166643048505",
+          "title": "250 gm",
+          "price": 172.5,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 250,
+          "pricePerKg": 690,
+          "sku": null
+        },
+        {
+          "id": "46166643081273",
+          "gid": "gid://shopify/ProductVariant/46166643081273",
+          "title": "400 gm",
+          "price": 276,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 400,
+          "pricePerKg": 690,
+          "sku": null
+        },
+        {
+          "id": "46166643114041",
+          "gid": "gid://shopify/ProductVariant/46166643114041",
+          "title": "600 gm",
+          "price": 414,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 600,
+          "pricePerKg": 690,
+          "sku": null
+        }
+      ],
+      "priceMin": 172.5,
+      "priceMax": 414,
+      "available": true,
+      "createdAt": "2026-07-06T13:06:14+03:00"
+    },
+    {
+      "id": "8330074161209",
+      "gid": "gid://shopify/Product/8330074161209",
+      "slug": "rulada-trio",
+      "shopifyHandle": "rulada-șah-copy",
+      "title": "Ruladă trio",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/2.jpg?v=1783332424",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166644490297",
+          "gid": "gid://shopify/ProductVariant/46166644490297",
+          "title": "300 gm",
+          "price": 270,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 300,
+          "pricePerKg": 900,
+          "sku": null
+        }
+      ],
+      "priceMin": 270,
+      "priceMax": 270,
+      "available": true,
+      "createdAt": "2026-07-06T13:06:43+03:00"
+    },
+    {
+      "id": "8330069868601",
+      "gid": "gid://shopify/Product/8330069868601",
+      "slug": "rulada-sah",
+      "shopifyHandle": "yucola-somon-copy",
+      "title": "Ruladă șah",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/1.jpg?v=1783332315",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46166637903929",
+          "gid": "gid://shopify/ProductVariant/46166637903929",
+          "title": "300 gm",
+          "price": 270,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 300,
+          "pricePerKg": 900,
+          "sku": null
+        }
+      ],
+      "priceMin": 270,
+      "priceMax": 270,
+      "available": true,
+      "createdAt": "2026-07-06T13:03:50+03:00"
+    },
+    {
+      "id": "8328969945145",
+      "gid": "gid://shopify/Product/8328969945145",
+      "slug": "yucola-somon",
+      "shopifyHandle": "yucola-somon",
+      "title": "Yucola Somon",
+      "descriptionHtml": "",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0520.jpg?v=1783279754",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46159137767481",
+          "gid": "gid://shopify/ProductVariant/46159137767481",
+          "title": "300 gm",
+          "price": 270,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 300,
+          "pricePerKg": 900,
+          "sku": null
+        },
+        {
+          "id": "46159137800249",
+          "gid": "gid://shopify/ProductVariant/46159137800249",
+          "title": "500 gm",
+          "price": 450,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 500,
+          "pricePerKg": 900,
+          "sku": null
+        },
+        {
+          "id": "46159137833017",
+          "gid": "gid://shopify/ProductVariant/46159137833017",
+          "title": "1200 - 1300 gm",
+          "price": 1080,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 1200,
+          "pricePerKg": 900,
+          "sku": null
+        }
+      ],
+      "priceMin": 270,
+      "priceMax": 1080,
+      "available": true,
+      "createdAt": "2026-07-05T22:29:35+03:00"
+    },
+    {
+      "id": "8328738799673",
+      "gid": "gid://shopify/Product/8328738799673",
+      "slug": "yucola-de-pastrav",
+      "shopifyHandle": "yucola-de-pastrav",
+      "title": "Yucola de păstrăv",
+      "descriptionHtml": "<p><meta charset=\"UTF-8\"><span>Yucola de păstrăv slab </span>sărata</p>\n<p> </p>",
+      "vendor": "WeSmokeFish",
+      "tags": [],
+      "collections": [
+        "peste-si-fructe-de-mare-afumate"
+      ],
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0805/3705/9385/files/482A0526.jpg?v=1783253202",
+          "width": 2500,
+          "height": 2500
+        }
+      ],
+      "optionName": "Bucata",
+      "variants": [
+        {
+          "id": "46159139831865",
+          "gid": "gid://shopify/ProductVariant/46159139831865",
+          "title": "500 gm",
+          "price": 450,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 500,
+          "pricePerKg": 900,
+          "sku": null
+        },
+        {
+          "id": "46159139864633",
+          "gid": "gid://shopify/ProductVariant/46159139864633",
+          "title": "1200 gm (bucata întreagă)",
+          "price": 1080,
+          "compareAtPrice": null,
+          "available": true,
+          "grams": 1200,
+          "pricePerKg": 900,
+          "sku": null
+        }
+      ],
+      "priceMin": 450,
+      "priceMax": 1080,
+      "available": true,
+      "createdAt": "2026-07-05T15:11:15+03:00"
+    }
+  ]
+}

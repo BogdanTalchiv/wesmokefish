@@ -6,12 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "sync:catalog": "node scripts/sync-catalog.mjs",
+    "verify:catalog": "node scripts/verify-catalog.mjs",
+    "catalog": "npm run sync:catalog && npm run verify:catalog",
+    "qa:html": "node scripts/qa-html.mjs",
+    "qa:redirects": "node scripts/qa-redirects.mjs"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.9.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.45.0",
     "next": "16.3.4",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-hook-form": "^7.87.0",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.6.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
