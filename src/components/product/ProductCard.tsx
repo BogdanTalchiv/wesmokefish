@@ -199,7 +199,7 @@ export function ProductCard({
                   disabled={!variant.available}
                   aria-pressed={active}
                   className={cn(
-                    "rounded-full border px-2.5 py-1 text-[0.6875rem] font-medium tabular-nums transition-colors duration-150",
+                    "min-h-8 rounded-full border px-3 py-1.5 text-[0.75rem] font-medium tabular-nums transition-colors duration-150",
                     active
                       ? "border-ink bg-ink text-cream"
                       : "border-cream-300 text-ink-500 hover:border-ink-400 hover:text-ink",

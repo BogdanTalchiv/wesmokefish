@@ -71,7 +71,7 @@ Nothing about products is hardcoded in components.
 | --- | --- | --- |
 | Products, prices, variants, images | `src/data/catalog.json` | Generated — run `npm run catalog` |
 | Product descriptions | Shopify admin, else `src/data/product-content.ts` | Owner |
-| Bestsellers, products of the week, category tiles, cross-sell rules, campaign product sets | `src/data/merchandising.ts` | Owner (slugs only) |
+| Bestsellers, occasions, bundles, quick categories, cross-sell rules, campaign product sets | `src/data/merchandising.ts` | Owner (slugs only) |
 | Phone, email, address, delivery rules, socials, analytics IDs | `src/config/business.ts` | Owner |
 | All UI text, Romanian | `src/lib/i18n/dictionaries/ro.ts` | Owner |
 | All UI text, Russian | `src/lib/i18n/dictionaries/ru.ts` | Owner |

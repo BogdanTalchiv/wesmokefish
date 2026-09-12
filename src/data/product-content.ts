@@ -21,6 +21,11 @@ export type ProductCopy = {
   short: string;
   /** Two or three sentences for the product page. */
   long: string;
+  /**
+   * How to serve it — written from the product name only (ready to plate,
+   * eaten by hand, goes with bread). Never an invented pairing claim.
+   */
+  serve?: string;
 };
 
 /** Keyed by product slug. Locale `ru` falls back to `ro` until translated. */
@@ -30,6 +35,7 @@ export const PRODUCT_COPY: Record<string, ProductCopy> = {
     long:
       "Yucola de somon se taie în felii late, cu textură mătăsoasă și un fum așezat, nu dominant. " +
       "Se pune direct pe platou, fără nimic în plus. Bucata întreagă de 1,2 kg e pentru mesele mari, cea de 300 g pentru o seară obișnuită.",
+    serve: "Direct pe platou, așa cum iese din ambalaj. Lămâie lângă, dacă vrei.",
   },
   "yucola-de-pastrav": {
     short: "Păstrăv slab sărat, în felii fine și rozalii.",
@@ -60,6 +66,7 @@ export const PRODUCT_COPY: Record<string, ProductCopy> = {
     long:
       "Ruladă șah — pătrate deschise și închise, alternate, care se văd în secțiune. " +
       "Se taie în rondele și arată bine pe platou fără să faci nimic altceva. 300 g.",
+    serve: "Rondele pe platou. Arată gata fără să aranjezi nimic.",
   },
   "rulada-trio": {
     short: "Ruladă din trei feluri de pește, în rondele.",
@@ -72,18 +79,21 @@ export const PRODUCT_COPY: Record<string, ProductCopy> = {
     long:
       "Creveți afumați, cu parmezan. Fumul și brânza se prind de crevete și îi dau o crustă sărată. " +
       "Se mănâncă cu mâna, direct din cutie, și dispar repede.",
+    serve: "În bol, pe masă. Se mănâncă cu mâna. Nu cere farfurie.",
   },
   "creveti-afumati": {
     short: "Creveți afumați, simpli și sărați exact cât trebuie.",
     long:
       "Creveți afumați, fără nimic peste. Fermi, sărați cât trebuie, cu fum simțit din prima. " +
       "Aperitivul cel mai simplu de servit — se pune bolul pe masă și atât.",
+    serve: "Bol pe masă. Atât.",
   },
   "midii-afumate": {
     short: "Midii afumate pe bățișor, la 79 MDL.",
     long:
       "Midii afumate, servite pe bățișor. Cărnoase, cu fum și cu puțin din dulceața lor naturală rămasă. " +
       "Cea mai ieftină cale de a completa un platou.",
+    serve: "Pe bățișor, lângă pește sau lângă o bere rece.",
   },
   "midii-marinate": {
     short: "Midii marinate, acrișoare și reci.",
@@ -96,6 +106,7 @@ export const PRODUCT_COPY: Record<string, ProductCopy> = {
     long:
       "Păstrăv afumat întreg, cu pielea aurie și carnea care se desprinde în fulgi. " +
       "Se aduce la masă așa cum e și se împarte. Aproximativ 400 g.",
+    serve: "Întreg, pe un platou. Se împarte la masă.",
   },
   "dorado-afumata": {
     short: "Dorado afumată, carne albă și fermă.",
@@ -156,6 +167,7 @@ export const PRODUCT_COPY: Record<string, ProductCopy> = {
     long:
       "Scrumbie afumată ușor. Grasă, cu gust puternic de pește și fum peste, exact cum trebuie să fie scrumbia. " +
       "400 g și cel mai bun raport gust-preț din gama afumată.",
+    serve: "Cu pâine neagră. Sau lângă o bere.",
   },
   "scrumbie-slab-sarata": {
     short: "Scrumbie slab sărată, cu pâine neagră.",

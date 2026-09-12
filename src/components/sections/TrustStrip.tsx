@@ -1,29 +1,23 @@
-import { Leaf, ShoppingBag, Truck, Wallet } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
 import { DELIVERY } from "@/config/business";
 import { fill, getDictionary, type Locale } from "@/lib/i18n";
 import { formatMoney } from "@/lib/utils";
 
 /**
- * Value strip.
+ * Value strip — typographic, no icon grid.
  *
- * Each claim traces back to the audit: simple ordering (guest checkout on the
- * Shopify store), the stated delivery windows, the store's own "ambalare eco"
- * wording, and the verified 1.200 MDL free-delivery threshold.
- *
- * Presented as a typographic row rather than the usual four-icon Shopify
- * block — no boxes, no drop shadows.
+ * Each claim is still the verified one: guest checkout, same-day window,
+ * eco packaging wording from the live store, 1.200 MDL free delivery.
  */
 export function TrustStrip({ locale }: { locale: Locale }) {
   const t = getDictionary(locale);
   const amount = formatMoney(DELIVERY.freeShippingThreshold, locale);
 
   const items = [
-    { icon: ShoppingBag, ...t.trust.ordering },
-    { icon: Truck, ...t.trust.delivery },
-    { icon: Leaf, ...t.trust.packaging },
+    t.trust.ordering,
+    t.trust.delivery,
+    t.trust.packaging,
     {
-      icon: Wallet,
       title: fill(t.trust.freeShipping.title, { amount }),
       body: fill(t.trust.freeShipping.body, { amount }),
     },
@@ -32,25 +26,18 @@ export function TrustStrip({ locale }: { locale: Locale }) {
   return (
     <section className="border-b border-cream-300" aria-label={t.trust.ordering.title}>
       <div className="container-page">
-        <ul className="grid grid-cols-1 gap-px sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item, i) => (
             <Reveal
               as="li"
               key={item.title}
-              delay={i * 70}
-              className="flex gap-3.5 border-b border-cream-300 py-7 last:border-b-0 sm:border-b-0 lg:pr-8"
+              delay={i * 60}
+              className="border-b border-cream-300 py-8 last:border-b-0 sm:border-b-0 sm:pr-10 lg:py-10"
             >
-              <item.icon
-                className="mt-0.5 h-[1.125rem] w-[1.125rem] shrink-0 text-ember"
-                strokeWidth={1.5}
-                aria-hidden
-              />
-              <div>
-                <h3 className="font-sans text-[0.8125rem] font-semibold tracking-[0.01em]">
-                  {item.title}
-                </h3>
-                <p className="mt-1.5 text-[0.8125rem] leading-relaxed text-ink-500">{item.body}</p>
-              </div>
+              <p className="font-display text-[1.375rem] leading-tight">{item.title}</p>
+              <p className="mt-2 max-w-[28ch] text-[0.8125rem] leading-relaxed text-ink-500">
+                {item.body}
+              </p>
             </Reveal>
           ))}
         </ul>

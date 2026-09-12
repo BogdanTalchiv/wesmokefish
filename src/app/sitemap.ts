@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllCollections, getAllProducts } from "@/lib/catalog";
-import { CAMPAIGN_LANDINGS } from "@/data/merchandising";
+import { BUNDLES, CAMPAIGN_LANDINGS, OCCASIONS } from "@/data/merchandising";
 import { ROUTES } from "@/config/navigation";
 import { SITE_URL } from "@/config/business";
 import { DEFAULT_LOCALE, LOCALES, LOCALE_TAGS, localePath } from "@/lib/i18n/config";
@@ -56,6 +56,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     ...CAMPAIGN_LANDINGS.flatMap((campaign) =>
       entry(ROUTES.campaign(campaign.slug), "monthly", 0.6)
+    ),
+
+    ...OCCASIONS.flatMap((occasion) =>
+      entry(ROUTES.occasion(occasion.slug), "weekly", 0.7)
+    ),
+
+    ...BUNDLES.flatMap((bundle) =>
+      entry(ROUTES.bundle(bundle.slug), "weekly", 0.65)
     ),
 
     ...entry(ROUTES.delivery, "monthly", 0.6),

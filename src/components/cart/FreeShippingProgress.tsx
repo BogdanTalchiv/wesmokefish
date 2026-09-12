@@ -1,7 +1,8 @@
 "use client";
 
 import { Check, Truck } from "lucide-react";
-import { fill, getDictionary, type Locale } from "@/lib/i18n";
+import { getDictionary, type Locale } from "@/lib/i18n";
+import { freeShippingMessage } from "@/lib/cart/freeShippingCopy";
 import { cn, formatMoney } from "@/lib/utils";
 
 /**
@@ -37,17 +38,12 @@ export function FreeShippingProgress({
         aria-live="polite"
       >
         {unlocked ? (
-          <>
-            <Check className="h-4 w-4 shrink-0" strokeWidth={2} aria-hidden />
-            {t.cart.freeShippingReached}
-          </>
+          <Check className="h-4 w-4 shrink-0" strokeWidth={2} aria-hidden />
         ) : (
-          <>
-            <Truck className="h-4 w-4 shrink-0 text-ink-400" strokeWidth={1.5} aria-hidden />
-            {fill(t.cart.freeShippingProgress, {
-              amount: formatMoney(amountRemaining, locale),
-            })}
-          </>
+          <Truck className="h-4 w-4 shrink-0 text-ink-400" strokeWidth={1.5} aria-hidden />
+        )}
+        {freeShippingMessage(amountRemaining, unlocked, t, (amount) =>
+          formatMoney(amount, locale)
         )}
       </p>
 

@@ -19,7 +19,8 @@ import {
   trackBeginCheckout,
   trackViewItem,
 } from "@/lib/analytics/events";
-import { fill, getDictionary, type Locale } from "@/lib/i18n";
+import { getDictionary, type Locale } from "@/lib/i18n";
+import { freeShippingMessage } from "@/lib/cart/freeShippingCopy";
 import { cn, formatMoney } from "@/lib/utils";
 
 /**
@@ -213,11 +214,12 @@ export function ProductPurchase({
         {/* Delivery nudge, using only the verified threshold */}
         <p className="mt-5 flex items-start gap-2.5 text-[0.8125rem] leading-relaxed text-ink-500">
           <Truck className="mt-0.5 h-4 w-4 shrink-0 text-ember" strokeWidth={1.5} aria-hidden />
-          {remainingForFreeDelivery === 0
-            ? t.cart.freeShippingReached
-            : fill(t.cart.freeShippingProgress, {
-                amount: formatMoney(remainingForFreeDelivery, locale),
-              })}
+          {freeShippingMessage(
+            remainingForFreeDelivery,
+            remainingForFreeDelivery === 0,
+            t,
+            (amount) => formatMoney(amount, locale)
+          )}
         </p>
       </div>
 

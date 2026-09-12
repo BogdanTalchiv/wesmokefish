@@ -12,6 +12,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { getAllProducts, getCollectionBySlug, getProductBySlug } from "@/lib/catalog";
 import { getProductCopy, getProductFacts } from "@/lib/catalog/content";
 import { getBundlePartner, getRelatedProducts } from "@/lib/cart/recommendations";
+import { getRelatedHeadline } from "@/lib/merchandising";
 import { breadcrumbSchema, productSchema } from "@/lib/seo/structuredData";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { DELIVERY } from "@/config/business";
@@ -119,9 +120,6 @@ export default async function ProductPage({
           {/* Gallery */}
           <div className="lg:sticky lg:top-24 lg:self-start">
             <ProductGallery images={product.images} title={product.title} locale={locale} />
-            {product.images.length === 1 && (
-              <p className="mt-3 text-xs text-ink-400">{t.product.oneImageOnly}</p>
-            )}
           </div>
 
           {/* Details + purchase */}
@@ -144,8 +142,17 @@ export default async function ProductPage({
               </p>
             </div>
 
-            {/* Product facts — rendered only when the owner has supplied them. */}
-            {factRows.length > 0 ? (
+            {copy.serve && (
+              <div className="mt-8 border-t border-cream-300 pt-8">
+                <h2 className="eyebrow">{t.product.serve}</h2>
+                <p className="mt-3 max-w-[48ch] font-display text-[1.25rem] leading-snug text-ink">
+                  {copy.serve}
+                </p>
+              </div>
+            )}
+
+            {/* Product facts — only when the owner has supplied them. */}
+            {factRows.length > 0 && (
               <div className="mt-8 border-t border-cream-300 pt-8">
                 <h2 className="eyebrow">{t.product.details}</h2>
                 <dl className="mt-3 divide-y divide-cream-200">
@@ -157,10 +164,6 @@ export default async function ProductPage({
                   ))}
                 </dl>
               </div>
-            ) : (
-              <p className="mt-8 border-t border-cream-300 pt-8 text-xs leading-relaxed text-ink-400">
-                {t.product.factsMissing}
-              </p>
             )}
 
             {/* Delivery, restated at the point of decision */}
@@ -203,7 +206,7 @@ export default async function ProductPage({
       {related.length > 0 && (
         <section className="border-t border-cream-300 py-16 sm:py-20" aria-labelledby="related-heading">
           <div className="container-page">
-            <SectionHeading title={t.product.related} as="h2" />
+            <SectionHeading title={getRelatedHeadline(product, t)} as="h2" />
             <ProductRail
               products={related}
               locale={locale}

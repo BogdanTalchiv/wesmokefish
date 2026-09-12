@@ -3,54 +3,38 @@ import { Reveal } from "@/components/ui/Reveal";
 import { getDictionary, type Locale } from "@/lib/i18n";
 
 /**
- * "How it's made".
+ * "How it's made" — craftsmanship, not a corporate timeline.
  *
- * Describes the workflow at a level the audit supports — selection, prep,
- * smoking, packing, delivery — and nothing more. No wood species, no
- * temperatures, no curing times: none of that is published anywhere on the
- * current site, so inventing it would be a fabricated production claim.
- * A short note points the owner at where real detail can be added.
+ * Copy stays at the level the audit supports. Technical smoking details are
+ * not published on the current site, so they are not invented here.
  */
 export function Process({ locale }: { locale: Locale }) {
   const t = getDictionary(locale);
 
   return (
-    <section className="py-20 sm:py-28" aria-labelledby="process-heading">
-      <div className="container-page">
+    <section className="bg-ink text-cream" aria-labelledby="process-heading">
+      <div className="container-page py-20 sm:py-28">
         <SectionHeading
           eyebrow={t.process.eyebrow}
           title={t.process.title}
           sub={t.process.sub}
+          onDark
+          headingId="process-heading"
         />
 
-        <ol className="mt-12 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-x-4">
+        <ol className="mt-14 grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-5 lg:gap-x-6">
           {t.process.steps.map((step, i) => (
-            <Reveal as="li" key={step.n} delay={i * 80} className="group">
-              {/* Hairline that fills on hover — the only motion in the section. */}
-              <div className="relative h-px w-full bg-cream-300">
-                <span
-                  className="absolute inset-y-0 left-0 w-0 bg-ember transition-[width] duration-700 [transition-timing-function:var(--ease-out-soft)] group-hover:w-full"
-                  aria-hidden
-                />
-              </div>
-
-              <p className="mt-4 font-display text-[2.5rem] leading-none text-cream-300 transition-colors duration-500 group-hover:text-ember">
+            <Reveal as="li" key={step.n} delay={i * 80}>
+              <p className="font-display text-[3.25rem] leading-none text-cream/20 sm:text-[3.75rem]">
                 {step.n}
               </p>
-
-              <h3 className="mt-3 font-sans text-[0.9375rem] font-semibold">{step.title}</h3>
-              <p className="mt-2 text-[0.8125rem] leading-relaxed text-ink-500">{step.body}</p>
+              <h3 className="mt-4 font-sans text-[0.9375rem] font-semibold tracking-[0.02em]">
+                {step.title}
+              </h3>
+              <p className="mt-2 text-[0.8125rem] leading-relaxed text-cream/55">{step.body}</p>
             </Reveal>
           ))}
         </ol>
-
-        {/*
-          Visible only to the store owner in the sense that it is honest about
-          what we do not know. Remove this line once real process copy exists.
-        */}
-        <p className="mt-10 max-w-[70ch] border-l-2 border-cream-300 pl-4 text-xs leading-relaxed text-ink-400">
-          {t.process.note}
-        </p>
       </div>
     </section>
   );

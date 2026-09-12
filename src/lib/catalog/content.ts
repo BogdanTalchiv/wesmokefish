@@ -31,6 +31,7 @@ export function getProductCopy(product: Product): ProductCopy & { source: "shopi
     return {
       short: shopifyText.length <= 120 ? shopifyText : (authored?.short ?? shopifyText.slice(0, 117) + "…"),
       long: shopifyText,
+      serve: authored?.serve,
       source: "shopify",
     };
   }

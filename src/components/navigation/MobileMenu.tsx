@@ -9,7 +9,7 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 import { CONTACT, SOCIAL } from "@/config/business";
 import { COLLECTION_ORDER, ROUTES, getPrimaryNav } from "@/config/navigation";
 import { getAllCollections } from "@/lib/catalog";
-import { CATEGORY_TILES } from "@/data/merchandising";
+import { CATEGORY_TILES, OCCASIONS } from "@/data/merchandising";
 import { fill, getDictionary, localePath, type Locale } from "@/lib/i18n";
 import { trackClickInstagram, trackClickPhone } from "@/lib/analytics/events";
 
@@ -87,6 +87,21 @@ export function MobileMenu({ open, onClose, locale }: MobileMenuProps) {
         >
           {t.nav.allProducts}
         </Link>
+
+        <p className="eyebrow mt-8">{t.occasions.eyebrow}</p>
+        <ul className="mt-3 flex flex-wrap gap-2">
+          {OCCASIONS.map((occasion) => (
+            <li key={occasion.slug}>
+              <Link
+                href={localePath(locale, ROUTES.occasion(occasion.slug))}
+                onClick={onClose}
+                className="flex h-10 items-center rounded-full border border-cream-300 px-3.5 text-[0.8125rem] transition-colors hover:border-ink hover:bg-ink hover:text-cream"
+              >
+                {t.occasions.names[occasion.slug]}
+              </Link>
+            </li>
+          ))}
+        </ul>
 
         <hr className="my-6 border-cream-300" />
 

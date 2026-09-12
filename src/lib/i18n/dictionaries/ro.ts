@@ -160,7 +160,7 @@ const ro = {
   ugc: {
     eyebrow: "@wesmokefishmd",
     title: "Pe mesele voastre",
-    sub: "Urmărește-ne pe Instagram și TikTok.",
+    sub: "Fotografii reale din gama WeSmokeFish. Urmărește-ne când iese ceva nou din afumătoare.",
     instagram: "Instagram",
     tiktok: "TikTok",
   },
@@ -233,9 +233,9 @@ const ro = {
   },
 
   finalCta: {
-    title: "Pune-l pe masă în seara asta",
+    title: "Ce pui pe masă în seara asta?",
     body: "Comenzile preluate până la 17:00 ajung între 18:00 și 22:00.",
-    ctaPrimary: "Vezi produsele",
+    ctaPrimary: "Descoperă produsele",
     ctaSecondary: "Sună acum",
   },
 
@@ -261,6 +261,11 @@ const ro = {
     factsMissing: "Informațiile despre ingrediente și păstrare se completează de echipa WeSmokeFish.",
     deliveryTitle: "Livrare",
     related: "S-ar potrivi alături",
+    relatedCompleteMeal: "Completează masa",
+    relatedGoesWith: "Merge foarte bine cu",
+    relatedPlatter: "Pentru un platou complet",
+    relatedWithBeer: "Lângă o bere rece",
+    serve: "Cum se servește",
     boughtTogether: "Se comandă des împreună",
     addBoth: "Adaugă tot setul",
     totalForSet: "Total set",
@@ -290,8 +295,10 @@ const ro = {
     removeItem: "Elimină {title} din coș",
     itemCount: "{count} produse",
     itemCountOne: "1 produs",
-    freeShippingReached: "Livrare gratuită deblocată",
+    freeShippingReached: "Livrare gratuită",
     freeShippingProgress: "Mai adaugă {amount} pentru livrare gratuită",
+    freeShippingClose: "Încă puțin — {amount} până la livrare gratuită",
+    alsoLike: "Poate îți place și",
     deliveryNote: "Costul livrării se calculează la checkout.",
     crossSellTitle: "Completează comanda",
     thresholdNudgeTitle: "Adaugă puțin și scapi de costul livrării",
@@ -356,6 +363,28 @@ const ro = {
         { title: "Livrare în aceeași zi", body: "Comenzi până la 17:00, livrate 18:00–22:00." },
       ],
     },
+    creveti: {
+      eyebrow: "Creveți",
+      title: "Creveți afumați, de mâncat cu mâna",
+      sub: "Cu parmezan sau simpli. Se pune bolul pe masă — dispar primii.",
+      cta: "Vezi creveții",
+      benefits: [
+        { title: "Fără pregătire", body: "Se mănâncă cu mâna, direct din cutie." },
+        { title: "Trei gramaje", body: "250 g, 400 g sau 600 g — cât ține masa." },
+        { title: "Livrare în aceeași zi", body: "Comenzi până la 17:00, livrate 18:00–22:00." },
+      ],
+    },
+    "peste-afumat": {
+      eyebrow: "Pește afumat",
+      title: "Pește afumat, livrat în Chișinău",
+      sub: "Somon, păstrăv, scrumbie, crap, dorado. Tăiat, ambalat, gata de masă.",
+      cta: "Vezi peștele afumat",
+      benefits: [
+        { title: "Gata de servit", body: "Fără gătit. Scoți din ambalaj și pui pe platou." },
+        { title: "De la Chișinău", body: "Pregătit aici. Livrat acasă la tine." },
+        { title: "Livrare în aceeași zi", body: "Comenzi până la 17:00, livrate 18:00–22:00." },
+      ],
+    },
     "fructe-de-mare": {
       eyebrow: "Fructe de mare",
       title: "Creveți și midii afumate",
@@ -403,6 +432,7 @@ const ro = {
     title: "Hai să vorbim",
     sub: "Sună, scrie sau trimite-ne un mesaj pe Instagram. Răspundem.",
     callUs: "Sună-ne",
+    whatsapp: "WhatsApp",
     writeUs: "Scrie-ne",
     visitUs: "Adresa noastră",
     form: {
@@ -486,6 +516,72 @@ const ro = {
     error: "Verifică adresa de e-mail.",
     unavailable: "Abonarea nu funcționează momentan. Încearcă mai târziu.",
     pendingNote: "Formularul se conectează la platforma de e-mail a WeSmokeFish.",
+  },
+
+  occasions: {
+    eyebrow: "Pentru ce ai poftă?",
+    title: "Începe de la masă, nu de la raft",
+    sub: "Alegi ocazia. Îți arătăm peștele care se potrivește.",
+    nav: "Ocazii",
+    view: "Vezi selecția",
+    names: {
+      "cina-in-doi": "Cina în doi",
+      musafiri: "Pentru musafiri",
+      weekend: "Pentru weekend",
+      "seara-cu-baietii": "Seară cu băieții",
+      platou: "Pentru platou",
+      degustare: "Pentru degustare",
+    },
+    blurbs: {
+      "cina-in-doi": "Somon, creveți, ceva de împărțit. Fără gătit.",
+      musafiri: "Un platou care arată gata când sosește cutia.",
+      weekend: "Pește, midii, bere. Masa se face singură.",
+      "seara-cu-baietii": "Creveți, midii, scrumbie, bere rece.",
+      platou: "Somon, rulade, fructe de mare. Le pui și gata.",
+      degustare: "Porții mici. Gusturi diferite. Fără angajament.",
+    },
+  },
+
+  bundles: {
+    eyebrow: "Seturi gata",
+    title: "Alegi setul. Noi îl punem în coș.",
+    sub: "Produse reale, prețul e suma lor. Fără reducere inventată.",
+    nav: "Seturi",
+    addSet: "Adaugă setul",
+    viewSet: "Vezi setul",
+    includes: "Conține",
+    total: "Total set",
+    names: {
+      "pentru-doi": "Pentru 2",
+      "platou-weekend": "Platou de weekend",
+      "seafood-night": "Seafood Night",
+      "pentru-musafiri": "Pentru musafiri",
+    },
+    blurbs: {
+      "pentru-doi": "Yucola de somon și creveți cu parmezan.",
+      "platou-weekend": "Somon, creveți și midii. Platoul e gata.",
+      "seafood-night": "Creveți și două feluri de midii.",
+      "pentru-musafiri": "Somon, ruladă șah și creveți.",
+    },
+  },
+
+  whatsNew: {
+    eyebrow: "Din afumătoare",
+    title: "Ce a ieșit azi",
+    empty: "Când iese ceva nou, apare aici.",
+  },
+
+  quickCategories: {
+    label: "Categorii rapide",
+    names: {
+      afumate: "Afumate",
+      somon: "Somon",
+      creveti: "Creveți",
+      midii: "Midii",
+      peste: "Pește",
+      "fructe-de-mare": "Fructe de mare",
+      bere: "Bere",
+    },
   },
 
   common: {

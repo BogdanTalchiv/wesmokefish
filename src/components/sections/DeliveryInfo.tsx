@@ -1,8 +1,10 @@
-import { Clock, MapPin, Phone, Truck } from "lucide-react";
+import { Clock, MapPin, Truck } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { ButtonAnchor, ButtonLink } from "@/components/ui/Button";
-import { CONTACT, DELIVERY } from "@/config/business";
+import { ButtonLink } from "@/components/ui/Button";
+import { PhoneCta } from "@/components/marketing/PhoneCta";
+import { WhatsappCta } from "@/components/marketing/WhatsappCta";
+import { DELIVERY } from "@/config/business";
 import { ROUTES } from "@/config/navigation";
 import { fill, getDictionary, localePath, type Locale } from "@/lib/i18n";
 import { formatMoney } from "@/lib/utils";
@@ -113,10 +115,8 @@ export function DeliveryInfo({
               <p className="mt-1.5 text-[0.875rem] text-ink-500">{t.delivery.contactBody}</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <ButtonAnchor href={CONTACT.phoneHref} variant="primary" size="md">
-                <Phone className="h-4 w-4" strokeWidth={1.5} aria-hidden />
-                <span className="tabular-nums">{CONTACT.phone}</span>
-              </ButtonAnchor>
+              <PhoneCta location="delivery_section" />
+              <WhatsappCta location="delivery_section" locale={locale} />
               <ButtonLink href={localePath(locale, ROUTES.contact)} variant="outline" size="md">
                 {t.nav.contact}
               </ButtonLink>

@@ -52,6 +52,16 @@ const legacyRedirects = [
   ...legacyRedirect("/collections/all", "/produse"),
   ...legacyRedirect("/collections/frontpage", "/produse"),
   ...legacyRedirect("/search", "/produse"),
+  // Paid-traffic aliases — ads can use /landing/somon and land on the
+  // message-matched campaign page rather than the homepage.
+  ...legacyRedirect("/landing/somon", "/campanii/somon"),
+  ...legacyRedirect("/landing/creveti", "/campanii/creveti"),
+  ...legacyRedirect("/landing/fructe-de-mare", "/campanii/fructe-de-mare"),
+  ...legacyRedirect("/landing/peste-afumat", "/campanii/peste-afumat"),
+  ...legacyRedirect("/collections/somon", "/campanii/somon"),
+  ...legacyRedirect("/collections/creveti", "/campanii/creveti"),
+  ...legacyRedirect("/collections/peste-afumat", "/campanii/peste-afumat"),
+  ...legacyRedirect("/collections/fructe-de-mare", "/campanii/fructe-de-mare"),
 ];
 
 const nextConfig: NextConfig = {

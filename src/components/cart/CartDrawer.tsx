@@ -161,7 +161,7 @@ export function CartDrawer({ locale }: { locale: Locale }) {
 
           <CartRecommendations
             products={recommendations}
-            title={freeShippingUnlocked ? t.cart.crossSellTitle : t.cart.thresholdNudgeTitle}
+            title={freeShippingUnlocked ? t.cart.alsoLike : t.cart.thresholdNudgeTitle}
             locale={locale}
           />
         </>

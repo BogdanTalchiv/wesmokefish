@@ -11,6 +11,7 @@ import type { Product } from "@/lib/catalog/types";
 import { getDefaultVariant } from "@/lib/catalog/content";
 import { searchProducts } from "@/lib/search";
 import { useUrlQueryParam } from "@/lib/hooks/useUrlQueryParam";
+import { QuickCategories } from "@/components/navigation/QuickCategories";
 import { fill, getDictionary, type Locale } from "@/lib/i18n";
 
 /**
@@ -101,6 +102,10 @@ export function ProductGridView({
 
   return (
     <div>
+      <div className="mb-4 lg:hidden">
+        <QuickCategories locale={locale} />
+      </div>
+
       {/* Toolbar */}
       <div className="flex flex-wrap items-center justify-between gap-3 border-y border-cream-300 py-3">
         <div className="flex items-center gap-3">

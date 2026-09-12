@@ -3,6 +3,9 @@ import {
   DEFAULT_RECOMMENDATION_SLUGS,
   THRESHOLD_NUDGE_SLUGS,
 } from "@/data/merchandising";
+import { getRelatedHeadline, getRelatedHeadlineKey } from "@/lib/merchandising";
+
+export { getRelatedHeadline, getRelatedHeadlineKey };
 import { getProductBySlug, getProductsInCollection } from "@/lib/catalog";
 import type { Product } from "@/lib/catalog/types";
 

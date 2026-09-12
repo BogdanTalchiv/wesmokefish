@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { ContactChannelLink } from "@/components/marketing/ContactChannelLink";
 import { PageHeader } from "@/components/sections/PageHeader";
 import { ContactForm } from "@/components/marketing/ContactForm";
 import { SocialLinks } from "@/components/ui/SocialLinks";
@@ -47,6 +48,14 @@ export default async function ContactPage({
       label: t.contact.callUs,
       value: CONTACT.phone,
       href: CONTACT.phoneHref,
+      method: "phone" as const,
+    },
+    {
+      icon: MessageCircle,
+      label: t.contact.whatsapp,
+      value: CONTACT.phone,
+      href: CONTACT.whatsappHref,
+      method: "whatsapp" as const,
     },
     {
       icon: Mail,
@@ -91,11 +100,10 @@ export default async function ContactPage({
             <ul className="divide-y divide-cream-300 border-y border-cream-300">
               {channels.map((channel) => (
                 <li key={channel.label}>
-                  <a
+                  <ContactChannelLink
                     href={channel.href}
-                    {...(channel.href.startsWith("http")
-                      ? { target: "_blank", rel: "noopener noreferrer" }
-                      : {})}
+                    method={"method" in channel ? channel.method : undefined}
+                    location="contact_page"
                     className="group flex items-start gap-4 py-5 transition-colors hover:text-ember"
                   >
                     <channel.icon
@@ -111,7 +119,7 @@ export default async function ContactPage({
                         {channel.value}
                       </span>
                     </span>
-                  </a>
+                  </ContactChannelLink>
                 </li>
               ))}
             </ul>

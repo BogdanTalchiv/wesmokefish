@@ -9,6 +9,8 @@ export const ROUTES = {
   collection: (slug: string) => `/colectii/${slug}`,
   product: (slug: string) => `/produse/${slug}`,
   campaign: (slug: string) => `/campanii/${slug}`,
+  occasion: (slug: string) => `/ocazii/${slug}`,
+  bundle: (slug: string) => `/seturi/${slug}`,
   delivery: "/livrare",
   about: "/despre-noi",
   contact: "/contact",
@@ -48,6 +50,8 @@ export function getFooterNav(t: Dictionary) {
       { label: t.categories.names["peste-si-fructe-de-mare-afumate"], href: ROUTES.collection("peste-si-fructe-de-mare-afumate") },
       { label: t.categories.names["slab-sarat-si-marinat"], href: ROUTES.collection("slab-sarat-si-marinat") },
       { label: t.categories.names.bere, href: ROUTES.collection("bere") },
+      { label: t.occasions.nav, href: ROUTES.occasion("platou") },
+      { label: t.bundles.nav, href: ROUTES.bundle("pentru-doi") },
     ],
     info: [
       { label: t.nav.delivery, href: ROUTES.delivery },

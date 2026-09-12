@@ -2,16 +2,20 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Hero } from "@/components/sections/Hero";
 import { TrustStrip } from "@/components/sections/TrustStrip";
+import { Occasions } from "@/components/sections/Occasions";
 import { CategoryTiles } from "@/components/sections/CategoryTiles";
 import { SignatureProduct } from "@/components/sections/SignatureProduct";
-import { Process } from "@/components/sections/Process";
+import { Bundles } from "@/components/sections/Bundles";
 import { EditorialBreak } from "@/components/sections/EditorialBreak";
+import { Process } from "@/components/sections/Process";
+import { WhatsNew } from "@/components/sections/WhatsNew";
 import { Reviews } from "@/components/sections/Reviews";
 import { SocialGallery } from "@/components/sections/SocialGallery";
 import { DeliveryInfo } from "@/components/sections/DeliveryInfo";
 import { Faq } from "@/components/sections/Faq";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { SectionHeading } from "@/components/sections/SectionHeading";
+import { QuickCategories } from "@/components/navigation/QuickCategories";
 import { ProductRail } from "@/components/product/ProductRail";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { getProductsBySlugs } from "@/lib/catalog";
@@ -56,16 +60,19 @@ export default async function HomePage({
       <JsonLd id="ld-faq" data={faqSchema(t.faq.items)} />
       <JsonLd id="ld-bestsellers" data={itemListSchema(bestsellers, locale)} />
 
-      {/* 01 — Hero (announcement bar + header live in the layout) */}
       <Hero locale={locale} />
-
-      {/* 02 — Verified value strip */}
       <TrustStrip locale={locale} />
 
-      {/* 03 — Category discovery */}
+      <div className="border-b border-cream-300 py-3 sm:hidden">
+        <div className="container-page">
+          <QuickCategories locale={locale} />
+        </div>
+      </div>
+
+      <Occasions locale={locale} />
+
       <CategoryTiles locale={locale} />
 
-      {/* 04 — Bestsellers */}
       <section className="pb-20 sm:pb-28" aria-labelledby="bestsellers-heading">
         <div className="container-page">
           <SectionHeading
@@ -73,6 +80,7 @@ export default async function HomePage({
             title={t.bestsellers.title}
             sub={t.bestsellers.sub}
             action={{ label: t.bestsellers.cta, href: localePath(locale, ROUTES.products) }}
+            headingId="bestsellers-heading"
           />
           <ProductRail
             products={bestsellers}
@@ -83,16 +91,15 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* 05 — Signature product, editorial treatment */}
       <SignatureProduct locale={locale} />
 
-      {/* 06 — Products of the week */}
       <section className="py-20 sm:py-28" aria-labelledby="weekly-heading">
         <div className="container-page">
           <SectionHeading
             eyebrow={t.weekly.eyebrow}
             title={t.weekly.title}
             sub={t.weekly.sub}
+            headingId="weekly-heading"
           />
           <ProductRail
             products={weekly}
@@ -104,25 +111,14 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* 07 — How it's made */}
+      <Bundles locale={locale} />
       <Process locale={locale} />
-
-      {/* 08 — Emotional break */}
       <EditorialBreak locale={locale} />
-
-      {/* 09 — Social proof */}
+      <WhatsNew locale={locale} />
       <Reviews locale={locale} />
-
-      {/* 10 — Social / lifestyle gallery */}
       <SocialGallery locale={locale} />
-
-      {/* 11 — Delivery, answered before it is asked */}
       <DeliveryInfo locale={locale} />
-
-      {/* 12 — Objection handling */}
       <Faq locale={locale} />
-
-      {/* 13 — Closing CTA */}
       <FinalCta locale={locale} />
     </>
   );

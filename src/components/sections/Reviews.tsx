@@ -1,8 +1,7 @@
 import { Star } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { ButtonAnchor } from "@/components/ui/Button";
-import { REVIEWS, SOCIAL } from "@/config/business";
+import { REVIEWS } from "@/config/business";
 import { fill, getDictionary, type Locale } from "@/lib/i18n";
 
 /**
@@ -20,31 +19,10 @@ export function Reviews({ locale }: { locale: Locale }) {
   const t = getDictionary(locale);
 
   if (!REVIEWS.enabled || REVIEWS.items.length === 0) {
-    return (
-      <section className="py-20 sm:py-28" aria-labelledby="reviews-heading">
-        <div className="container-page">
-          <Reveal className="mx-auto max-w-xl text-center">
-            <p className="eyebrow">{t.reviews.eyebrow}</p>
-            <h2 id="reviews-heading" className="mt-2.5 text-(length:--text-display-sm) leading-[1.05]">
-              {t.reviews.title}
-            </h2>
-            <p className="mt-6 text-[0.9375rem] leading-relaxed text-ink-500">
-              {t.reviews.empty.body}
-            </p>
-            <ButtonAnchor
-              href={SOCIAL.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              variant="outline"
-              size="md"
-              className="mt-7"
-            >
-              {t.reviews.empty.cta}
-            </ButtonAnchor>
-          </Reveal>
-        </div>
-      </section>
-    );
+    // CMS-ready and silent. An empty "reviews coming soon" block reads as
+    // unfinished — Instagram is the honest social-proof surface until real
+    // reviews exist. Fill `REVIEWS` in business.ts to switch this on.
+    return null;
   }
 
   return (

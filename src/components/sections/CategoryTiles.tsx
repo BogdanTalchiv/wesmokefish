@@ -34,6 +34,7 @@ export function CategoryTiles({ locale }: { locale: Locale }) {
           title={t.categories.title}
           sub={t.categories.sub}
           action={{ label: t.nav.allProducts, href: localePath(locale, ROUTES.products) }}
+          headingId="categories-heading"
         />
 
         <div className="mt-10 grid grid-cols-1 gap-3 sm:mt-12 sm:grid-cols-2 lg:grid-cols-4">
@@ -80,10 +81,7 @@ export function CategoryTiles({ locale }: { locale: Locale }) {
                   <div className="absolute inset-x-0 bottom-0 p-5 sm:p-6">
                     <div className="flex items-end justify-between gap-4">
                       <div>
-                        <h3
-                          id={index === 0 ? "categories-heading" : undefined}
-                          className="text-[1.375rem] leading-tight text-cream sm:text-[1.625rem]"
-                        >
+                        <h3 className="text-[1.375rem] leading-tight text-cream sm:text-[1.625rem]">
                           {name}
                         </h3>
                         <p className="mt-1.5 max-w-[32ch] text-[0.8125rem] leading-relaxed text-cream/65">

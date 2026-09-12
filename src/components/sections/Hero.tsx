@@ -62,11 +62,11 @@ export function Hero({ locale }: { locale: Locale }) {
       {/* Content layer */}
       <div className="relative z-10">
         <div className="container-page">
-          <div className="flex min-h-[max(31rem,78svh)] flex-col justify-end py-14 sm:min-h-[max(34rem,80svh)] sm:py-20 lg:min-h-[max(36rem,82svh)]">
-            <div className="max-w-[42rem]">
+          <div className="flex min-h-[max(32rem,84svh)] flex-col justify-end py-16 sm:min-h-[max(36rem,86svh)] sm:py-24 lg:min-h-[max(38rem,88svh)]">
+            <div className="max-w-[44rem]">
               <p className="eyebrow text-ember">{t.hero.eyebrow}</p>
 
-              <h1 className="mt-4 text-(length:--text-display-lg) leading-[0.94] text-cream">
+              <h1 className="mt-5 text-(length:--text-display-lg) leading-[0.9] text-cream">
                 {/* Two lines by design — the break is part of the composition. */}
                 {t.hero.headline.split("\n").map((line, i) => (
                   <span key={i} className="block">
